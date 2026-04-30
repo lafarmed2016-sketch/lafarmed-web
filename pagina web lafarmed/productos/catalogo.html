@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Farmed - Productos y Servicios</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <div class="container top-bar-container">
+            <div class="top-bar-info">
+                <a href="mailto:contacto@lafarmed.com.pe"><i data-lucide="mail" class="icon"></i>
+                    contacto@lafarmed.com.pe</a>
+                <a href="tel:015053793"><i data-lucide="phone" class="icon"></i> (01) 505-3793</a>
+                <a href="https://wa.me/51984375070" target="_blank"><i data-lucide="message-circle" class="icon"></i>
+                    984 375 070</a>
+                <span class="desktop-only"><i data-lucide="clock" class="icon"></i> Lun-Vie 08:00am a 5:30pm | Sáb 8am a
+                    1:30pm</span>
+            </div>
+            <div class="top-bar-social">
+                <a href="https://www.facebook.com/laboratoriolafarmed?ref=embed_page" target="_blank"
+                    title="Síguenos en Facebook"><i data-lucide="facebook" class="icon"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER / NAV -->
+    <header>
+        <div class="nav-container glass">
+            <div class="logo">
+                <img src="../assets/img/lafarmed.png" alt="La Farmed" class="logo-img">
+            </div>
+
+            <nav>
+                <a href="../index.html" class="nav-link">Inicio</a>
+                <a href="../quienes-somos/index.html" class="nav-link">Quiénes Somos</a>
+                <a href="../cobertura/index.html" class="nav-link">Cobertura</a>
+                <a href="../productos/index.html" class="nav-link">Productos</a>
+                <a href="../contactenos/index.html" class="nav-link">Contacto</a>
+                <a href="../farmacovigilancia/index.html" class="nav-link">Farmacovigilancia</a>
+            </nav>
+
+            <a href="../contactenos/index.html" class="btn btn-primary"
+                style="text-decoration: none; display: flex; align-items: center; gap: 0.5rem;">
+                <i data-lucide="phone" class="icon"></i> Cotizar
+            </a>
+        </div>
+    </header>
+    <!-- BANNER PORTADA FULL SCREEN -->
+    <div class="animate-fade-up" style="width: 100vw; height: calc(100vh + 8rem); position: relative; margin-top: -8rem; margin-bottom: 0; overflow: hidden; display: flex; align-items: center; justify-content: center;">
+        <img src="../assets/img/producto_fondo.png" alt="Catálogo de Productos La Farmed" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- CATALOG SECTION -->
+    <section class="catalog section-padding" id="catalogo">
+        <div class="container">
+            <div class="section-header animate-fade-up">
+                <div>
+                    <a href="index.html" class="btn-outline-primary"
+                        style="display: inline-flex; align-items: center; gap: 0.5rem; margin-bottom: 1.5rem; padding: 0.5rem 1rem; font-size: 0.9rem; border-color: var(--border); color: var(--text-muted); text-decoration: none;">
+                        <i data-lucide="arrow-left" class="icon" style="width: 16px; height: 16px;"></i> Volver a Líneas
+                        de Productos
+                    </a>
+                    <br>
+                    <div class="pill" style="background: rgba(4, 140, 154, 0.1); border: none; box-shadow: none;">
+                        CATÁLOGO COMPLETO</div>
+                    <h2 class="section-title">Encuentra el <span class="text-gradient">producto ideal</span></h2>
+                </div>
+            </div>
+
+            <!-- TABS -->
+            <div class="catalog-filters animate-fade-up" style="transition-delay: 100ms;">
+                <button class="filter-btn active" data-filter="all">Todas las líneas</button>
+                <button class="filter-btn" data-filter="antibiotica">Antibiótica</button>
+                <button class="filter-btn" data-filter="dermatologica">Dermatológica</button>
+                <button class="filter-btn" data-filter="digestiva">Digestiva</button>
+                <button class="filter-btn" data-filter="dolor">Dolor</button>
+                <button class="filter-btn" data-filter="respiratoria">Respiratoria</button>
+                <button class="filter-btn" data-filter="natural">Natural</button>
+            </div>
+
+            <!-- PRODUCT GRID -->
+            <div class="catalog-grid" id="catalogGrid">
+
+                <!-- Product 1 -->
+                <div class="product-card animate-fade-up" data-category="antibiotica" style="transition-delay: 200ms;">
+                    <div class="product-img-box">
+                        <span class="product-badge antibiotica">Línea Antibiótica</span>
+                        <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=400"
+                            alt="Amoxicilina">
+                    </div>
+                    <div class="product-info">
+                        <h3>Amoxicilina 500mg</h3>
+                        <p class="product-desc">Caja x 100 cápsulas. Antibiótico de amplio espectro para tratamiento de
+                            infecciones.</p>
+                        <a href="https://wa.me/51984375070?text=Hola,%20deseo%20cotizar%20Amoxicilina%20500mg"
+                            target="_blank" class="btn-outline-primary product-btn">Cotizar <i
+                                data-lucide="message-circle" class="icon" style="width: 16px; height: 16px;"></i></a>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card animate-fade-up" data-category="antibiotica" style="transition-delay: 300ms;">
+                    <div class="product-img-box">
+                        <span class="product-badge antibiotica">Línea Antibiótica</span>
+                        <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=400"
+                            alt="Azitromicina">
+                    </div>
+                    <div class="product-info">
+                        <h3>Azitromicina 500mg</h3>
+                        <p class="product-desc">Caja x 3 tabletas recubiertas. Macrólido indicado para infecciones del
+                            tracto respiratorio.</p>
+                        <a href="https://wa.me/51984375070?text=Hola,%20deseo%20cotizar%20Azitromicina%20500mg"
+                            target="_blank" class="btn-outline-primary product-btn">Cotizar <i
+                                data-lucide="message-circle" class="icon" style="width: 16px; height: 16px;"></i></a>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card animate-fade-up" data-category="dermatologica"
+                    style="transition-delay: 400ms;">
+                    <div class="product-img-box">
+                        <span class="product-badge dermatologica">Línea Dermatológica</span>
+                        <img src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&q=80&w=400"
+                            alt="Terbinafina">
+                    </div>
+                    <div class="product-info">
+                        <h3>Terbinafina 1%</h3>
+                        <p class="product-desc">Tubo x 20g. Crema antimicótica de amplio espectro para tratamiento
+                            tópico.</p>
+                        <a href="https://wa.me/51984375070?text=Hola,%20deseo%20cotizar%20Terbinafina%201%25"
+                            target="_blank" class="btn-outline-primary product-btn">Cotizar <i
+                                data-lucide="message-circle" class="icon" style="width: 16px; height: 16px;"></i></a>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card animate-fade-up" data-category="digestiva" style="transition-delay: 500ms;">
+                    <div class="product-img-box">
+                        <span class="product-badge digestiva">Línea Digestiva</span>
+                        <img src="https://images.unsplash.com/photo-1631549916768-4119b2e5f926?auto=format&fit=crop&q=80&w=400"
+                            alt="Omeprazol">
+                    </div>
+                    <div class="product-info">
+                        <h3>Omeprazol 20mg</h3>
+                        <p class="product-desc">Caja x 30 cápsulas. Protector gástrico e inhibidor de bomba de protones.
+                        </p>
+                        <a href="https://wa.me/51984375070?text=Hola,%20deseo%20cotizar%20Omeprazol%2020mg"
+                            target="_blank" class="btn-outline-primary product-btn">Cotizar <i
+                                data-lucide="message-circle" class="icon" style="width: 16px; height: 16px;"></i></a>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card animate-fade-up" data-category="dolor" style="transition-delay: 600ms;">
+                    <div class="product-img-box">
+                        <span class="product-badge dolor">Línea Dolor</span>
+                        <img src="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&q=80&w=400"
+                            alt="Ibuprofeno">
+                    </div>
+                    <div class="product-info">
+                        <h3>Ibuprofeno 400mg</h3>
+                        <p class="product-desc">Caja x 100 tabletas. Analgésico y antiinflamatorio no esteroideo (AINE).
+                        </p>
+                        <a href="https://wa.me/51984375070?text=Hola,%20deseo%20cotizar%20Ibuprofeno%20400mg"
+                            target="_blank" class="btn-outline-primary product-btn">Cotizar <i
+                                data-lucide="message-circle" class="icon" style="width: 16px; height: 16px;"></i></a>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card animate-fade-up" data-category="dolor" style="transition-delay: 700ms;">
+                    <div class="product-img-box">
+                        <span class="product-badge dolor">Línea Dolor</span>
+                        <img src="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&q=80&w=400"
+                            alt="Paracetamol">
+                    </div>
+                    <div class="product-info">
+                        <h3>Paracetamol 500mg</h3>
+                        <p class="product-desc">Caja x 100 tabletas. Analgésico y antipirético seguro y de acción
+                            rápida.</p>
+                        <a href="https://wa.me/51984375070?text=Hola,%20deseo%20cotizar%20Paracetamol%20500mg"
+                            target="_blank" class="btn-outline-primary product-btn">Cotizar <i
+                                data-lucide="message-circle" class="icon" style="width: 16px; height: 16px;"></i></a>
+                    </div>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="product-card animate-fade-up" data-category="respiratoria" style="transition-delay: 800ms;">
+                    <div class="product-img-box">
+                        <span class="product-badge respiratoria">Línea Respiratoria</span>
+                        <img src="https://images.unsplash.com/photo-1628771065518-0d82f1938462?auto=format&fit=crop&q=80&w=400"
+                            alt="Loratadina">
+                    </div>
+                    <div class="product-info">
+                        <h3>Loratadina 10mg</h3>
+                        <p class="product-desc">Caja x 100 tabletas. Antihistamínico de segunda generación para
+                            alergias.</p>
+                        <a href="https://wa.me/51984375070?text=Hola,%20deseo%20cotizar%20Loratadina%2010mg"
+                            target="_blank" class="btn-outline-primary product-btn">Cotizar <i
+                                data-lucide="message-circle" class="icon" style="width: 16px; height: 16px;"></i></a>
+                    </div>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="product-card animate-fade-up" data-category="natural" style="transition-delay: 900ms;">
+                    <div class="product-img-box">
+                        <span class="product-badge natural">Naturvid Natural</span>
+                        <img src="https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&q=80&w=400"
+                            alt="Colágeno">
+                    </div>
+                    <div class="product-info">
+                        <h3>Colágeno Hidrolizado</h3>
+                        <p class="product-desc">Frasco x 300g. Suplemento dietético para el cuidado de articulaciones y
+                            piel.</p>
+                        <a href="https://wa.me/51984375070?text=Hola,%20deseo%20cotizar%20Colageno%20Hidrolizado"
+                            target="_blank" class="btn-outline-primary product-btn">Cotizar <i
+                                data-lucide="message-circle" class="icon" style="width: 16px; height: 16px;"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Script for Filtering -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Initialize Lucide icons
+            lucide.createIcons();
+
+            // Header Scroll Effect
+            const header = document.querySelector('header');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 35) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+
+            // Intersection Observer for scroll animations
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            const animatedElements = document.querySelectorAll('.animate-fade-up');
+            animatedElements.forEach(el => observer.observe(el));
+
+            // Counter Animation
+            const statNumbers = document.querySelectorAll('.stat-num, .about-badge-num');
+            const animateCounter = (el) => {
+                const targetText = el.innerText.trim();
+                const targetNum = parseInt(targetText.replace(/\D/g, ''));
+                if (isNaN(targetNum)) return;
+                
+                const suffix = targetText.replace(/[0-9\s]/g, '');
+                let currentNum = 0;
+                
+                // Calculamos el tiempo para que dure aprox 2 segundos, mínimo 20ms por paso
+                const duration = 2000;
+                let stepTime = Math.abs(Math.floor(duration / targetNum));
+                let increment = 1;
+                
+                if (stepTime < 20) {
+                    stepTime = 20;
+                    increment = Math.ceil(targetNum / (duration / stepTime));
+                }
+                
+                const timer = setInterval(() => {
+                    currentNum += increment;
+                    if (currentNum >= targetNum) {
+                        el.innerText = targetText;
+                        clearInterval(timer);
+                    } else {
+                        el.innerText = currentNum + suffix;
+                    }
+                }, stepTime);
+            };
+
+            const counterObserver = new IntersectionObserver((entries, obs) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        animateCounter(entry.target);
+                        obs.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            statNumbers.forEach(el => counterObserver.observe(el));
+
+
+            // Chat Widget Logic
+            const chatToggle = document.getElementById('chatToggle');
+            const chatBox = document.getElementById('chatBox');
+            const chatClose = document.getElementById('chatClose');
+            const chatInput = document.getElementById('chatInput');
+            const chatSend = document.getElementById('chatSend');
+            const chatMessages = document.getElementById('chatMessages');
+            
+            const btnAvatar = document.getElementById('chatBotAvatarBtn');
+            const headerAvatar = document.getElementById('chatBotAvatarHeader');
+            const botStatus = document.getElementById('chatBotStatus');
+            const chatBubble = document.getElementById('chatBotBubble');
+
+            const imgSaludo = '../assets/img/iaSaludo.png';
+            const imgNormal = '../assets/img/ia.png';
+            const imgDurmiendo = '../assets/img/iaDurmiendo.png';
+
+            let isChatOpen = false;
+            let hasGreeted = false;
+            let idleTimer = null;
+            let waveTimeouts = [];
+
+            const stopWaving = () => {
+                waveTimeouts.forEach(clearTimeout);
+                waveTimeouts = [];
+                chatBubble.style.opacity = '0';
+            };
+
+            const startWaving = () => {
+                stopWaving();
+                if (isChatOpen) return;
+                
+                chatBubble.style.opacity = '1';
+                btnAvatar.src = imgSaludo; // Mano arriba
+                
+                waveTimeouts.push(setTimeout(() => {
+                    if (!isChatOpen && !btnAvatar.src.includes('Durmiendo')) btnAvatar.src = imgNormal;
+                }, 400)); // Mano abajo
+                
+                waveTimeouts.push(setTimeout(() => {
+                    if (!isChatOpen && !btnAvatar.src.includes('Durmiendo')) btnAvatar.src = imgSaludo;
+                }, 800)); // Mano arriba
+                
+                waveTimeouts.push(setTimeout(() => {
+                    if (!isChatOpen && !btnAvatar.src.includes('Durmiendo')) btnAvatar.src = imgNormal;
+                    chatBubble.style.opacity = '0';
+                }, 1200)); // Finaliza el saludo en un poco más de 1 segundo
+            };
+
+            const wakeUpBot = () => {
+                if (btnAvatar.src.includes('Durmiendo')) {
+                    btnAvatar.classList.remove('bot-sleep');
+                    headerAvatar.src = imgNormal;
+                    botStatus.textContent = 'En línea';
+                    if (!isChatOpen) {
+                        startWaving();
+                    }
+                }
+                resetIdleTimer();
+            };
+
+            const sleepBot = () => {
+                stopWaving();
+                btnAvatar.src = imgDurmiendo;
+                btnAvatar.classList.add('bot-sleep');
+                headerAvatar.src = imgDurmiendo;
+                botStatus.textContent = 'Ausente (Zzz...)';
+            };
+
+            const resetIdleTimer = () => {
+                clearTimeout(idleTimer);
+                idleTimer = setTimeout(sleepBot, 60000); // 1 minute
+            };
+
+            // Saludo inicial al cargar la página
+            startWaving();
+            resetIdleTimer();
+
+            // Wake up on any interaction
+            document.addEventListener('mousemove', () => {
+                if (btnAvatar.src.includes('Durmiendo')) wakeUpBot();
+                resetIdleTimer();
+            });
+            document.addEventListener('keydown', () => {
+                if (btnAvatar.src.includes('Durmiendo')) wakeUpBot();
+                resetIdleTimer();
+            });
+
+            const toggleChat = () => {
+                isChatOpen = !isChatOpen;
+                if (isChatOpen) {
+                    wakeUpBot();
+                    stopWaving();
+                    btnAvatar.src = imgNormal; // Se queda normal
+                    chatBox.classList.add('open');
+                    chatToggle.style.transform = 'scale(0)';
+                    
+                    if (!hasGreeted) {
+                        setTimeout(() => {
+                            addMessage("¡Hola! 👋 Soy la inteligencia artificial de La Farmed. ¿En qué te puedo ayudar hoy?", "bot");
+                            hasGreeted = true;
+                        }, 500);
+                    }
+                } else {
+                    chatBox.classList.remove('open');
+                    chatToggle.style.transform = 'scale(1)';
+                    startWaving(); // Saluda al cerrar el chat
+                    resetIdleTimer();
+                }
+            };
+
+            chatToggle.addEventListener('click', toggleChat);
+            chatClose.addEventListener('click', toggleChat);
+
+            const addMessage = (text, sender) => {
+                const msgDiv = document.createElement('div');
+                msgDiv.className = `chat-message ${sender}`;
+                msgDiv.textContent = text;
+                chatMessages.appendChild(msgDiv);
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            };
+
+            const getBotResponse = (msg) => {
+                const lowerMsg = msg.toLowerCase();
+                if (lowerMsg.includes('producto') || lowerMsg.includes('linea') || lowerMsg.includes('catálogo')) {
+                    return "Contamos con más de 89 productos divididos en líneas como Antibiótica, Dermatológica, Digestiva, Dolor, Respiratoria y Natural.";
+                } else if (lowerMsg.includes('contacto') || lowerMsg.includes('telefono') || lowerMsg.includes('llamar') || lowerMsg.includes('cotizar')) {
+                    return "Puedes contactarnos al (01) 7192378 o al 984 375 070. También nos encuentras en Av. Encalada 1171, Surco — Lima.";
+                } else if (lowerMsg.includes('cobertura') || lowerMsg.includes('donde') || lowerMsg.includes('lima') || lowerMsg.includes('provincia')) {
+                    return "Tenemos cobertura a nivel nacional. Distribuimos a miles de boticas y farmacias en Lima y provincias garantizando calidad y confianza.";
+                } else if (lowerMsg.includes('hola') || lowerMsg.includes('buenos') || lowerMsg.includes('buenas')) {
+                    return "¡Hola! ¿Cómo te podemos ayudar en La Farmed el día de hoy?";
+                } else {
+                    return "Gracias por escribirnos. Para información más detallada, por favor dale clic al botón 'Cotizar' en el menú principal o llámanos a nuestros números de contacto.";
+                }
+            };
+
+            const handleSend = () => {
+                const text = chatInput.value.trim();
+                if (text) {
+                    addMessage(text, 'user');
+                    chatInput.value = '';
+                    
+                    setTimeout(() => {
+                        const response = getBotResponse(text);
+                        addMessage(response, 'bot');
+                    }, 1000);
+                }
+                resetIdleTimer();
+            };
+
+            chatSend.addEventListener('click', handleSend);
+            chatInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') handleSend();
+            });
+            
+            // Hero Background Slider (for index.html)
+            const slides = document.querySelectorAll('.hero-slide');
+            if (slides.length > 0) {
+                let currentSlide = 0;
+                setInterval(() => {
+                    slides[currentSlide].classList.remove('active');
+                    currentSlide = (currentSlide + 1) % slides.length;
+                    slides[currentSlide].classList.add('active');
+                }, 3000);
+            }
+        });
+    </script>
