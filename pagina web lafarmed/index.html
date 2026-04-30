@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Farmed - Productos y Servicios</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <div class="container top-bar-container">
+            <div class="top-bar-info">
+                <a href="mailto:contacto@lafarmed.com.pe"><i data-lucide="mail" class="icon"></i> contacto@lafarmed.com.pe</a>
+                <a href="tel:015053793"><i data-lucide="phone" class="icon"></i> (01) 505-3793</a>
+                <a href="https://wa.me/51984375070" target="_blank"><i data-lucide="message-circle" class="icon"></i> 984 375 070</a>
+                <span class="desktop-only"><i data-lucide="clock" class="icon"></i> Lun-Vie 08:00am a 5:30pm | Sáb 8am a 1:30pm</span>
+            </div>
+            <div class="top-bar-social">
+                <a href="https://www.facebook.com/laboratoriolafarmed?ref=embed_page" target="_blank" title="Síguenos en Facebook"><i data-lucide="facebook" class="icon"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER / NAV -->
+    <header>
+        <div class="nav-container glass">
+            <div class="logo">
+                <img src="assets/img/lafarmed.png" alt="La Farmed" class="logo-img">
+            </div>
+
+            <nav id="navMenu">
+                <a href="index.html" class="nav-link">Inicio</a>
+                <a href="quienes-somos/index.html" class="nav-link">Quiénes Somos</a>
+                <a href="cobertura/index.html" class="nav-link">Cobertura</a>
+                <a href="productos/catalogo.html" class="nav-link">Productos</a>
+                <a href="contactenos/index.html" class="nav-link">Contacto</a>
+                <a href="farmacovigilancia/index.html" class="nav-link">Farmacovigilancia</a>
+            </nav>
+
+            <div class="header-actions">
+                <a href="contactenos/index.html" class="btn btn-primary header-btn" style="text-decoration: none; display: flex; align-items: center; gap: 0.5rem;">
+                    <i data-lucide="phone" class="icon"></i> Cotizar
+                </a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <!-- Fullscreen Slider Background -->
+        <div class="hero-slider">
+            <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=2000');"></div>
+            <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1585435557343-3b092031a831?auto=format&fit=crop&q=80&w=2000');"></div>
+            <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&q=80&w=2000');"></div>
+            <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1631549916768-4119b2e5f926?auto=format&fit=crop&q=80&w=2000');"></div>
+            <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=2000');"></div>
+        </div>
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-grid relative-z">
+            <div class="hero-content animate-fade-up">
+                <div class="pill dark-pill">
+                    <i data-lucide="sparkles" class="icon" style="color: var(--secondary)"></i> 23+ años cuidando al Perú
+                </div>
+                <h1 class="hero-title text-white">
+                    Salud de <span class="text-gradient-secondary">alta calidad</span><br>
+                    para el Perú.
+                </h1>
+                <p class="hero-desc text-white-opacity">
+                    Comercializadores de medicamentos certificados <strong>DIGEMID</strong>. Distribuimos a miles de
+                    boticas y farmacias en Lima y provincias con confianza, calidad y bienestar.
+                </p>
+                <div class="hero-actions">
+                    <a href="contactenos/index.html" class="btn btn-primary" style="text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                        Cotiza ahora <i data-lucide="arrow-right" class="icon"></i>
+                    </a>
+                    <a href="productos/catalogo.html" class="btn btn-outline-white" style="text-decoration: none; display: flex; align-items: center; justify-content: center;">
+                        Ver productos
+                    </a>
+                </div>
+                <div class="hero-stats text-white">
+                    <div>
+                        <div class="stat-num">23+</div>
+                        <div class="stat-label text-white-opacity">Años de experiencia</div>
+                    </div>
+                    <div>
+                        <div class="stat-num">12</div>
+                        <div class="stat-label text-white-opacity">Líneas farmacéuticas</div>
+                    </div>
+                    <div>
+                        <div class="stat-num">89+</div>
+                        <div class="stat-label text-white-opacity">Productos disponibles</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual animate-fade-up" style="transition-delay: 200ms;">
+                <!-- The image was removed from here because it's now in the background slider -->
+
+                <!-- Floating Badges -->
+                <div class="floating-badge b-1 glass">
+                    <div class="badge-icon mint">
+                        <i data-lucide="shield-check" class="icon" style="width: 24px; height: 24px;"></i>
+                    </div>
+                    <div class="badge-text">
+                        <div>Certificación</div>
+                        <div>DIGEMID</div>
+                    </div>
+                </div>
+
+                <div class="floating-badge b-2 glass">
+                    <div class="badge-icon orange">
+                        <i data-lucide="award" class="icon" style="width: 24px; height: 24px;"></i>
+                    </div>
+                    <div class="badge-text">
+                        <div>Calidad</div>
+                        <div>Garantizada</div>
+                    </div>
+                </div>
+
+                <div class="floating-badge b-3 glass">
+                    <div class="badge-icon teal">
+                        <i data-lucide="truck" class="icon" style="width: 24px; height: 24px;"></i>
+                    </div>
+                    <div class="badge-text">
+                        <div>Cobertura</div>
+                        <div>Nacional</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MARQUEE SECTION -->
+    <section class="marquee-section">
+        <div class="marquee-content">
+            <!-- Repeated content for continuous scroll -->
+            <div class="marquee-item">BPA <div class="marquee-dot"></div>
+            </div>
+            <div class="marquee-item">DIGEMID <div class="marquee-dot"></div>
+            </div>
+            <div class="marquee-item">BPDT <div class="marquee-dot"></div>
+            </div>
+            <div class="marquee-item">BPM <div class="marquee-dot"></div>
+            </div>
+            <div class="marquee-item">Calidad <div class="marquee-dot"></div>
+            </div>
+            <div class="marquee-item">Confianza <div class="marquee-dot"></div>
+            </div>
+            <div class="marquee-item">Bienestar <div class="marquee-dot"></div>
+            </div>
+            <div class="marquee-item">Certificado <div class="marquee-dot"></div>
+            </div>
+            <div class="marquee-item">Cobertura Nacional <div class="marquee-dot"></div>
+            </div>
+            <div class="marquee-item">23+ Años <div class="marquee-dot"></div>
+            </div>
+            <!-- Duplicate for seamless scroll -->
+            <div class="marquee-item">BPA <div class="marquee-dot"></div>
+            </div>
+            <div class="marquee-item">DIGEMID <div class="marquee-dot"></div>
+            </div>
+            <div class="marquee-item">BPDT <div class="marquee-dot"></div>
+            </div>
+            <div class="marquee-item">BPM <div class="marquee-dot"></div>
+            </div>
+            <div class="marquee-item">Calidad <div class="marquee-dot"></div>
+            </div>
+            <div class="marquee-item">Confianza <div class="marquee-dot"></div>
+            </div>
+            <div class="marquee-item">Bienestar <div class="marquee-dot"></div>
+            </div>
+            <div class="marquee-item">Certificado <div class="marquee-dot"></div>
+            </div>
+            <div class="marquee-item">Cobertura Nacional <div class="marquee-dot"></div>
+            </div>
+            <div class="marquee-item">23+ Años <div class="marquee-dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CERTIFICACIONES SECTION -->
+    <section class="certifications section-padding" style="background: var(--surface); position: relative; overflow: hidden;">
+        <!-- Background decorative elements -->
+        <div style="position: absolute; top: -50%; left: -10%; width: 500px; height: 500px; background: radial-gradient(circle, rgba(4, 140, 154, 0.05) 0%, transparent 70%); border-radius: 50%;"></div>
+        
+        <div class="container relative-z">
+            <div class="section-header animate-fade-up" style="flex-direction: column; align-items: center; justify-content: center; text-align: center; margin-bottom: 4rem; gap: 1rem;">
+                <div class="pill" style="background: rgba(4, 140, 154, 0.1); border: none; box-shadow: none; margin: 0 auto;">
+                    CERTIFICACIONES OFICIALES
+                </div>
+                <h2 class="section-title" style="margin: 0 auto; max-width: 100%;">
+                    Brindamos <span class="text-gradient-primary">Calidad, Confianza y Garantía</span>
+                </h2>
+                <p class="services-desc" style="margin-top: 1rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                    Contamos con las principales certificaciones a nivel nacional otorgadas por DIGEMID, garantizando que todos nuestros procesos sean los más óptimos.
+                </p>
+            </div>
+
+            <div class="cert-grid">
+                <!-- BPA -->
+                <div class="cert-card animate-fade-up">
+                    <div class="cert-img-wrapper">
+                        <div class="cert-glow"></div>
+                        <img src="assets/img/BPA_GPS.png" alt="Certificado BPA">
+                    </div>
+                    <h3>Buenas Prácticas de Almacenamiento (BPA)</h3>
+                    <p>Garantizamos que todos nuestros procesos de almacenamiento preservan y cuidan el estado de nuestros medicamentos.</p>
+                </div>
+
+                <!-- BPDT -->
+                <div class="cert-card animate-fade-up" style="transition-delay: 150ms;">
+                    <div class="cert-img-wrapper">
+                        <div class="cert-glow"></div>
+                        <img src="assets/img/BPDT_GPDT.png" alt="Certificado BPDT">
+                    </div>
+                    <h3>Distribución y Transporte (BPDT)</h3>
+                    <p>Aseguramos que la distribución sea óptima, permitiendo que los productos lleguen a tu botica en perfecto estado.</p>
+                </div>
+
+                <!-- BPM -->
+                <div class="cert-card animate-fade-up" style="transition-delay: 300ms;">
+                    <div class="cert-img-wrapper">
+                        <div class="cert-glow"></div>
+                        <img src="assets/img/BPM_GMP.png" alt="Certificado BPM">
+                    </div>
+                    <h3>Buenas Prácticas de Manufactura (BPM)</h3>
+                    <p>Medicamentos elaborados bajo estándares internacionales de alta calidad que brindan máxima seguridad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SERVICES SECTION -->
+    <section class="services">
+        <div class="container">
+            <div class="services-header animate-fade-up">
+                <div class="pill" style="background: rgba(4, 140, 154, 0.1); border: none; box-shadow: none;">
+                    NUESTROS SERVICIOS
+                </div>
+                <h2 class="section-title">
+                    Soluciones integrales para el <span class="text-gradient-primary">sector farmacéutico</span>
+                </h2>
+                <p class="services-desc">Operamos con los más altos estándares regulatorios del país.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card animate-fade-up" style="transition-delay: 100ms;">
+                    <div class="service-icon teal">
+                        <i data-lucide="truck" class="icon" style="width: 24px; height: 24px;"></i>
+                    </div>
+                    <h3 class="service-title">Distribución Farmacéutica</h3>
+                    <p class="service-desc">Red logística certificada para distribución nacional de productos
+                        farmacéuticos en Lima y provincias.</p>
+                    <i data-lucide="arrow-right" class="service-arrow icon"></i>
+                </div>
+
+                <div class="service-card animate-fade-up" style="transition-delay: 200ms;">
+                    <div class="service-icon mint">
+                        <i data-lucide="shield-check" class="icon" style="width: 24px; height: 24px;"></i>
+                    </div>
+                    <h3 class="service-title">Certificación DIGEMID</h3>
+                    <p class="service-desc">Productos bajo estrictos estándares regulatorios y certificaciones BPA, BPDT
+                        y BPM vigentes.</p>
+                    <i data-lucide="arrow-right" class="service-arrow icon"></i>
+                </div>
+
+                <div class="service-card animate-fade-up" style="transition-delay: 300ms;">
+                    <div class="service-icon orange">
+                        <i data-lucide="heart-pulse" class="icon" style="width: 24px; height: 24px;"></i>
+                    </div>
+                    <h3 class="service-title">Asesoría Técnica</h3>
+                    <p class="service-desc">Equipo especializado para consultas, soporte y farmacovigilancia.</p>
+                    <i data-lucide="arrow-right" class="service-arrow icon"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    
+
+    
+
+    
+
+    
+    <!-- COBERTURA SECTION -->
+    <section class="cobertura section-padding" id="cobertura" style="background: var(--surface);">
+        <div class="container about-grid">
+            <div class="about-content animate-fade-up">
+                <span class="pill" style="background: rgba(4, 140, 154, 0.1); border: none; box-shadow: none;">COBERTURA NACIONAL</span>
+                <h2 class="section-title">Llegamos a cada rincón del <span class="text-gradient">Perú</span></h2>
+                <p class="section-desc" style="max-width: 100%;">
+                    En LAFARMED nos enorgullecemos de tener una extensa red de distribución que nos permite llevar nuestros medicamentos y productos naturales a las principales ciudades y provincias de todo el territorio nacional, asegurando el bienestar de más peruanos.
+                </p>
+                <a href="cobertura/index.html" class="btn btn-primary" style="text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; margin-top: 1rem;">
+                    Ver nuestra cobertura <i data-lucide="map-pin" class="icon"></i>
+                </a>
+            </div>
+            <div class="about-visual animate-fade-up" style="transition-delay: 200ms;">
+                <img src="assets/img/cobertura.png" alt="Cobertura La Farmed" style="width: 100%; border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); object-fit: contain;">
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+    <section class="products section-padding" id="productos">
+        <div class="container">
+
+            <div class="section-header animate-fade-up">
+                <div>
+                    <div class="pill" style="background: rgba(4, 140, 154, 0.1); border: none; box-shadow: none;">
+                        CATÁLOGO</div>
+                    <h2 class="section-title">
+                        Nuestras <span class="text-gradient">líneas de productos</span>
+                    </h2>
+                </div>
+                <a href="productos/catalogo.html" class="view-all">
+                    Ver todo el catálogo <i data-lucide="arrow-right" class="icon"></i>
+                </a>
+            </div>
+
+            <div class="grid">
+
+                <div class="card animate-fade-up" style="transition-delay: 100ms;">
+                    <div class="card-img-wrapper">
+                        <span class="card-badge">15 productos</span>
+                        <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=400"
+                            alt="Línea Antibiótica" class="card-img" style="mix-blend-mode: multiply;">
+                        <div class="card-gradient-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Línea Antibiótica</h3>
+                        <p class="card-desc">Antibióticos de amplio espectro.</p>
+                        <a href="productos/catalogo.html?linea=antibiotica" class="card-link">Explorar línea <i data-lucide="arrow-right" class="icon"></i></a>
+                    </div>
+                </div>
+
+                <div class="card animate-fade-up" style="transition-delay: 200ms;">
+                    <div class="card-img-wrapper">
+                        <span class="card-badge">4 productos</span>
+                        <img src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&q=80&w=400"
+                            alt="Línea Dermatológica" class="card-img" style="mix-blend-mode: multiply;">
+                        <div class="card-gradient-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Línea Dermatológica</h3>
+                        <p class="card-desc">Cuidado y tratamiento cutáneo.</p>
+                        <a href="productos/catalogo.html?linea=dermatologica" class="card-link">Explorar línea <i data-lucide="arrow-right" class="icon"></i></a>
+                    </div>
+                </div>
+
+                <div class="card animate-fade-up" style="transition-delay: 300ms;">
+                    <div class="card-img-wrapper">
+                        <span class="card-badge">13 productos</span>
+                        <img src="https://images.unsplash.com/photo-1631549916768-4119b2e5f926?auto=format&fit=crop&q=80&w=400"
+                            alt="Línea Digestiva" class="card-img" style="mix-blend-mode: multiply;">
+                        <div class="card-gradient-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Línea Digestiva</h3>
+                        <p class="card-desc">Sistema digestivo y gastrointestinal.</p>
+                        <a href="productos/catalogo.html?linea=digestiva" class="card-link">Explorar línea <i data-lucide="arrow-right" class="icon"></i></a>
+                    </div>
+                </div>
+
+                <div class="card animate-fade-up" style="transition-delay: 400ms;">
+                    <div class="card-img-wrapper">
+                        <span class="card-badge">18 productos</span>
+                        <img src="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&q=80&w=400"
+                            alt="Línea Dolor" class="card-img" style="mix-blend-mode: multiply;">
+                        <div class="card-gradient-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Línea Dolor</h3>
+                        <p class="card-desc">Analgésicos y antiinflamatorios.</p>
+                        <a href="productos/catalogo.html?linea=dolor" class="card-link">Explorar línea <i data-lucide="arrow-right" class="icon"></i></a>
+                    </div>
+                </div>
+
+                <div class="card animate-fade-up" style="transition-delay: 500ms;">
+                    <div class="card-img-wrapper">
+                        <span class="card-badge">12 productos</span>
+                        <img src="https://images.unsplash.com/photo-1628771065518-0d82f1938462?auto=format&fit=crop&q=80&w=400"
+                            alt="Línea Respiratoria" class="card-img" style="mix-blend-mode: multiply;">
+                        <div class="card-gradient-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Línea Respiratoria</h3>
+                        <p class="card-desc">Tracto respiratorio y antigripales.</p>
+                        <a href="productos/catalogo.html?linea=respiratoria" class="card-link">Explorar línea <i data-lucide="arrow-right" class="icon"></i></a>
+                    </div>
+                </div>
+
+                <div class="card animate-fade-up" style="transition-delay: 600ms;">
+                    <div class="card-img-wrapper">
+                        <span class="card-badge">27 productos</span>
+                        <img src="https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&q=80&w=400"
+                            alt="Naturvid Natural" class="card-img" style="mix-blend-mode: multiply;">
+                        <div class="card-gradient-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Naturvid Natural</h3>
+                        <p class="card-desc">Línea natural y suplementos.</p>
+                        <a href="productos/catalogo.html?linea=natural" class="card-link">Explorar línea <i data-lucide="arrow-right" class="icon"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about section-padding" id="quienes-somos">
+        <div class="container about-grid">
+            <div class="about-visual animate-fade-up">
+                <img src="https://images.unsplash.com/photo-1576091160550-2173ff9e5ee5?auto=format&fit=crop&q=80&w=1000"
+                    alt="Equipo La Farmed" class="about-img">
+                <div class="about-badge">
+                    <div class="about-badge-num">23+</div>
+                    <div class="about-badge-text">
+                        Años desarrollando productos farmacéuticos para el bienestar del Perú.
+                    </div>
+                </div>
+            </div>
+            <div class="about-content animate-fade-up" style="transition-delay: 200ms;">
+                <span class="pill">Sobre nosotros</span>
+                <h2 class="section-title">Comprometidos con el <span class="text-gradient-primary">bienestar del
+                        Perú</span>.</h2>
+                <p class="section-desc" style="max-width: 100%;">
+                    LAFARMED es una empresa dedicada a la comercialización de productos farmacéuticos. La calidad de nuestros productos y servicios nos han permitido desarrollar un sólido crecimiento en la participación del mercado farmacéutico. Logrando un reconocido posicionamiento y teniendo una aceptación del público consumidor. Dicho éxito, nos lleva a contribuir con el desarrollo y bienestar del Perú.
+                </p>
+                
+                <div class="mision-vision-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 2rem 0;">
+                    <div class="mv-card" style="background: var(--surface); padding: 1.5rem; border-radius: 1rem; border: 1px solid var(--border);">
+                        <h4 style="color: var(--primary); font-family: 'Outfit', sans-serif; font-size: 1.25rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+                            <i data-lucide="target" class="icon" style="color: var(--secondary)"></i> Misión
+                        </h4>
+                        <p style="font-size: 0.9rem; color: var(--text-light); line-height: 1.5;">Empresa farmacéutica peruana comprometida con valores sociales, que busca la innovación para mejorar la calidad de vida y satisfacer a nuestros clientes mediante productos de alta calidad.</p>
+                    </div>
+                    <div class="mv-card" style="background: var(--surface); padding: 1.5rem; border-radius: 1rem; border: 1px solid var(--border);">
+                        <h4 style="color: var(--primary); font-family: 'Outfit', sans-serif; font-size: 1.25rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+                            <i data-lucide="eye" class="icon" style="color: var(--secondary)"></i> Visión
+                        </h4>
+                        <p style="font-size: 0.9rem; color: var(--text-light); line-height: 1.5;">Ser líderes en la comercialización de medicamentos y productos naturales para la salud humana a nivel nacional e internacional.</p>
+                    </div>
+                </div>
+
+                <a href="contactenos/index.html" class="btn btn-primary" style="text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; margin-top: 1rem;">
+                    Contactar a un asesor <i data-lucide="arrow-right" class="icon"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+        <!-- CONTACT SECTION -->
+    <section class="contacto section-padding" id="contacto" style="padding-bottom: 0;">
+        <div class="container" style="margin-bottom: 4rem;">
+            <div class="section-header animate-fade-up">
+                <div>
+                    <div class="pill" style="background: rgba(4, 140, 154, 0.1); border: none; box-shadow: none;">
+                        CONTÁCTENOS</div>
+                    <h2 class="section-title">
+                        Estamos aquí para <span class="text-gradient">ayudarte</span>
+                    </h2>
+                </div>
+            </div>
+
+            <div class="contact-grid">
+                
+                <!-- Form Column -->
+                <div class="contact-form-box animate-fade-up">
+                    <h3 style="color: var(--primary); font-size: 1.5rem; margin-bottom: 2rem; font-family: 'Outfit', sans-serif;">Envíenos un mensaje</h3>
+                    <form class="fv-form" style="gap: 1.5rem;">
+                        <div class="form-group">
+                            <label>Nombre y Apellidos *</label>
+                            <input type="text" class="form-control" placeholder="Ingrese su nombre completo" required>
+                        </div>
+                        <div class="fv-grid-2" style="gap: 1.5rem;">
+                            <div class="form-group">
+                                <label>Teléfono *</label>
+                                <input type="tel" class="form-control" placeholder="Su número" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Correo Electrónico *</label>
+                                <input type="email" class="form-control" placeholder="Su correo" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Asunto *</label>
+                            <input type="text" class="form-control" placeholder="¿En qué podemos ayudarle?" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Mensaje *</label>
+                            <textarea class="form-control" rows="5" placeholder="Escriba su mensaje aquí..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center; margin-top: 1rem; padding: 1rem;">
+                            Enviar Mensaje <i data-lucide="send" class="icon" style="margin-left: 0.5rem;"></i>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Info Column -->
+                <div class="contact-info-col animate-fade-up" style="transition-delay: 200ms;">
+                    <div class="info-cards">
+                        <div class="info-card">
+                            <div class="icon-box">
+                                <i data-lucide="phone" class="icon"></i>
+                            </div>
+                            <h4>Teléfonos</h4>
+                            <p>(01) 505-3793<br>984 375 070</p>
+                        </div>
+                        
+                        <div class="info-card">
+                            <div class="icon-box">
+                                <i data-lucide="mail" class="icon"></i>
+                            </div>
+                            <h4>Correo</h4>
+                            <p>informes@lafarmed.com.pe</p>
+                        </div>
+                        
+                        <div class="info-card full-width">
+                            <div class="icon-box">
+                                <i data-lucide="map-pin" class="icon"></i>
+                            </div>
+                            <h4>Sedes</h4>
+                            <p><strong>Surco:</strong> Av. Encalada 1171, Lima</p>
+                            <p style="margin-top: 0.5rem;"><strong>Comas:</strong> Av. Chillón Lote 34 B Fundo Chacra Cerro Zona E, Lima</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    
+
+                    <!-- Map -->
+                    <div class="map-container-full">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.326888494793!2d-76.9749504!3d-12.1065116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7a40b3c22ad%3A0x67fa50d5dd70ed29!2sAv.%20Encalada%201171%2C%20Santiago%20de%20Surco%2015023%2C%20Per%C3%BA!5e0!3m2!1ses!2s!4v1700000000000!5m2!1ses!2s" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+    </section>
+
+    <!-- FARMACOVIGILANCIA SECTION -->
+    <section class="farmacovigilancia section-padding" id="farmacovigilancia" style="background-color: var(--surface);">
+        <div class="container text-center animate-fade-up">
+            <div class="pill" style="margin: 0 auto 1.5rem auto;">Farmacovigilancia</div>
+            <h2 class="section-title">Tu seguridad es nuestra <span class="text-gradient-primary">prioridad</span></h2>
+            <p class="section-desc" style="margin: 0 auto 2.5rem auto; max-width: 800px;">
+                LABORATORIO FARMACEUTICO MEDICAL S.A.C. se preocupa por el bienestar y seguridad del paciente, por ello ha incorporado el área de farmacovigilancia, cuyo objetivo principal es contribuir con la protección del paciente promoviendo el uso seguro y eficaz de los medicamentos, e impartiendo información oportuna.
+            </p>
+            <div style="background: white; border: 1px solid var(--border); padding: 3rem; border-radius: 1.5rem; max-width: 900px; margin: 0 auto; box-shadow: var(--shadow-elegant); text-align: left;">
+                <h3 style="color: var(--primary); font-size: 1.75rem; margin-bottom: 2rem; text-align: center; font-family: 'Outfit', sans-serif;">¿CÓMO REPORTAR UN EVENTO ADVERSO?</h3>
+                <form class="fv-form">
+                    <!-- SECTION 1 -->
+                    <div class="fv-section">
+                        <h4 class="fv-section-title"><i data-lucide="user" class="icon" style="color: var(--secondary);"></i> 1. Usuario / Paciente</h4>
+                        <div class="fv-grid-2">
+                            <div class="form-group">
+                                <label>Nombres *</label>
+                                <input type="text" class="form-control" placeholder="Nombre" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Apellidos *</label>
+                                <input type="text" class="form-control" placeholder="Apellidos" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Teléfono *</label>
+                                <input type="tel" class="form-control" placeholder="Teléfono / Whatsapp" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Correo electrónico *</label>
+                                <input type="email" class="form-control" placeholder="Correo electrónico" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Edad *</label>
+                                <input type="number" class="form-control" placeholder="Edad" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Sexo *</label>
+                                <select class="form-control" required>
+                                    <option value="" disabled selected>Seleccione el Sexo...</option>
+                                    <option value="M">Masculino</option>
+                                    <option value="F">Femenino</option>
+                                </select>
+                            </div>
+                            <div class="form-group" style="grid-column: 1 / -1;">
+                                <label>Departamento/Provincia/Distrito *</label>
+                                <input type="text" class="form-control" placeholder="Ingrese el estado, region, provincia de su centro de trabajo" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SECTION 2 -->
+                    <div class="fv-section">
+                        <h4 class="fv-section-title"><i data-lucide="alert-triangle" class="icon" style="color: var(--secondary);"></i> 2. Evento Adverso</h4>
+                        <div class="form-group">
+                            <label>Descripción del evento *</label>
+                            <textarea class="form-control" rows="4" placeholder="Describa los eventos del paciente" required></textarea>
+                        </div>
+                        <div class="form-group" style="max-width: 50%; margin-top: 1.5rem;">
+                            <label>Fecha *</label>
+                            <input type="date" class="form-control" required>
+                        </div>
+                    </div>
+
+                    <!-- SECTION 3 -->
+                    <div class="fv-section">
+                        <h4 class="fv-section-title"><i data-lucide="pill" class="icon" style="color: var(--secondary);"></i> 3. Medicamento Sospechoso</h4>
+                        <div class="fv-grid-2">
+                            <div class="form-group">
+                                <label>Nombre producto *</label>
+                                <input type="text" class="form-control" placeholder="Nombre producto" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Lugar de adquisición *</label>
+                                <input type="text" class="form-control" placeholder="Lugar de adquisición" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Lote *</label>
+                                <input type="text" class="form-control" placeholder="Lote" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Dosis *</label>
+                                <input type="text" class="form-control" placeholder="Dosis" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Fecha *</label>
+                                <input type="date" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="form-group" style="margin-top: 1.5rem;">
+                            <label>Indicaciones *</label>
+                            <textarea class="form-control" rows="3" placeholder="Indicaciones" required></textarea>
+                        </div>
+                    </div>
+
+                    <div style="text-align: center; margin-top: 2.5rem;">
+                        <button type="submit" class="btn btn-primary" style="padding: 1rem 3rem; font-size: 1.1rem; width: 100%; max-width: 300px; display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; border: none; cursor: pointer;">
+                            Enviar Reporte <i data-lucide="send" class="icon"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- REDES SOCIALES SECTION -->
+    <section class="social-media section-padding" id="redes-sociales" style="background-color: var(--background);">
+        <div class="container text-center animate-fade-up">
+            <div class="pill" style="margin: 0 auto 1.5rem auto; background: rgba(4, 140, 154, 0.1); border: none; box-shadow: none;">REDES SOCIALES</div>
+            <h2 class="section-title">Síguenos en nuestras <span class="text-gradient-primary">redes</span></h2>
+            <p class="section-desc" style="margin: 0 auto 2.5rem auto; max-width: 800px;">
+                Mantente al día con nuestras últimas novedades, consejos de salud y productos.
+            </p>
+            
+            <div class="social-embed-grid" style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; align-items: flex-start;">
+                <!-- Facebook Embed -->
+                <div class="embed-container" style="background: white; border-radius: 1rem; overflow: hidden; box-shadow: var(--shadow-elegant); width: 100%; max-width: 500px; padding: 1rem; display: flex; justify-content: center;">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flaboratoriolafarmed&tabs=timeline&width=500&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="600" style="border:none;overflow:hidden; max-width: 100%;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                </div>
+
+                <!-- TikTok Embed -->
+                <div class="embed-container" style="background: white; border-radius: 1rem; overflow: hidden; box-shadow: var(--shadow-elegant); width: 100%; max-width: 500px; padding: 1rem;">
+                    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lafarmed" data-unique-id="lafarmed" data-embed-type="creator" style="max-width: 500px; min-width: 288px; width: 100%;">
+                        <section><a target="_blank" href="https://www.tiktok.com/@lafarmed?refer=creator_embed">@lafarmed</a></section>
+                    </blockquote>
+                    <script async src="https://www.tiktok.com/embed.js"></script>
+                    <p style="font-size: 0.8rem; color: var(--text-light); margin-top: 0.5rem;">*Nota: Reemplaza @lafarmed por tu usuario real de TikTok en el código fuente de ser necesario.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col brand-col">
+                <div class="footer-logo">
+                    <img src="assets/img/lafarmed.png" alt="La Farmed Medical S.A." style="height: 3.5rem; width: auto; object-fit: contain;">
+                </div>
+                <p class="footer-desc">
+                    Comercializadores de medicamentos de la más alta calidad para tu salud. RUC: 20506087948
+                </p>
+                <div class="footer-certs-inline" style="display: flex; gap: 1.5rem; margin-top: 1.5rem; margin-bottom: 1.5rem;">
+                    <div style="width: 90px; height: 90px; display: flex; align-items: center; justify-content: center;">
+                        <img src="assets/img/BPA_GPS.png" style="width: 100%; height: 100%; object-fit: contain; transform: scale(1.35);">
+                    </div>
+                    <div style="width: 90px; height: 90px; display: flex; align-items: center; justify-content: center;">
+                        <img src="assets/img/BPDT_GPDT.png" style="width: 100%; height: 100%; object-fit: contain; transform: scale(1.35);">
+                    </div>
+                    <div style="width: 90px; height: 90px; display: flex; align-items: center; justify-content: center;">
+                        <img src="assets/img/BPM_GMP.png" style="width: 100%; height: 100%; object-fit: contain; transform: scale(1.35);">
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-title">NAVEGACIÓN</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="quienes-somos/index.html">Quiénes Somos</a></li>
+                    <li><a href="cobertura/index.html">Cobertura</a></li>
+                    <li><a href="productos/catalogo.html">Productos</a></li>
+                    <li><a href="farmacovigilancia/index.html">Farmacovigilancia</a></li>
+                    <li><a href="contactenos/index.html">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-title">POLÍTICAS</h4>
+                <ul class="footer-links">
+                    <li><a href="https://drive.google.com/file/d/1i4-Y_wKntSfkkOXIUcjlWFVpBxqfPDf9/view?usp=sharing" target="_blank">Politicas SST</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-title">CERTIFICACIONES</h4>
+                <ul class="footer-links" style="display: flex; flex-direction: column; gap: 1rem;">
+                    <li style="display: flex; align-items: center; gap: 0.5rem;">
+                        <i data-lucide="check-circle" style="width: 16px; height: 16px; color: var(--primary);"></i>
+                        <span>BPA — DIGEMID</span>
+                    </li>
+                    <li style="display: flex; align-items: center; gap: 0.5rem;">
+                        <i data-lucide="check-circle" style="width: 16px; height: 16px; color: var(--primary);"></i>
+                        <span>BPDT — DIGEMID</span>
+                    </li>
+                    <li style="display: flex; align-items: center; gap: 0.5rem;">
+                        <i data-lucide="check-circle" style="width: 16px; height: 16px; color: var(--primary);"></i>
+                        <span>BPM — DIGEMID</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-title">CONTACTO</h4>
+                <ul class="footer-contact">
+                    <li>
+                        <i data-lucide="phone" class="icon"></i>
+                        <div>(01) 7192378 / (01) 505-3793<br>984 375 070</div>
+                    </li>
+                    <li>
+                        <i data-lucide="mail" class="icon"></i>
+                        <div>informes@lafarmed.com.pe</div>
+                    </li>
+                    <li>
+                        <i data-lucide="map-pin" class="icon"></i>
+                        <div>Av. Encalada 1171, Surco — Lima</div>
+                    </li>
+                    <li>
+                        <i data-lucide="clock" class="icon"></i>
+                        <div>Lun–Vie 8:00–17:30<br>Sáb 8:00–13:30</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer-bottom">
+                <div>© 2026 La Farmed — Laboratorio Farmacéutico Medical S.A. Todos los derechos reservados.</div>
+                <div>    <!-- AI CHAT WIDGET -->
+    <div class="chat-widget" id="chatWidget">
+        <div class="chat-box" id="chatBox">
+            <div class="chat-header">
+                <div class="chat-header-info">
+                    <div class="chat-avatar" style="background: transparent; padding: 0;">
+                        <img src="assets/img/ia.png" id="chatBotAvatarHeader" style="width: 40px; height: 40px; object-fit: contain; filter: drop-shadow(0 2px 5px rgba(0,0,0,0.2));">
+                    </div>
+                    <div>
+                        <h4>Asistente La Farmed</h4>
+                        <span class="status" id="chatBotStatus">En línea</span>
+                    </div>
+                </div>
+                <button class="chat-close" id="chatClose">
+                    <i data-lucide="x" class="icon" style="color: white; width: 20px; height: 20px;"></i>
+                </button>
+            </div>
+            <div class="chat-messages" id="chatMessages"></div>
+            <div class="chat-input-area">
+                <input type="text" id="chatInput" placeholder="Escribe tu mensaje..." autocomplete="off">
+                <button id="chatSend">
+                    <i data-lucide="send" class="icon" style="color: white; width: 18px; height: 18px;"></i>
+                </button>
+            </div>
+        </div>
+        <button class="chat-toggle" id="chatToggle" style="background: transparent; box-shadow: none; width: 120px; height: 120px; padding: 0; overflow: visible; right: 20px; bottom: 20px;">
+            <div id="chatBotBubble" style="position: absolute; top: 10px; left: 50%; transform: translateX(-50%); background: white; color: var(--primary); padding: 5px 15px; border-radius: 20px; font-weight: 700; font-size: 14px; box-shadow: 0 4px 10px rgba(0,0,0,0.15); opacity: 1; transition: opacity 0.3s; pointer-events: none; white-space: nowrap; font-family: 'Outfit', sans-serif;">
+                ¡Hola! 👋
+            </div>
+            <img src="assets/img/iaSaludo.png" id="chatBotAvatarBtn" style="width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 10px 15px rgba(0,0,0,0.3)); transform-origin: bottom center;">
+        </button>
+    </div>
+
+    <style>
+        .bot-sleep {
+            opacity: 0.9;
+        }
+    </style>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Initialize Lucide icons
+            lucide.createIcons();
+
+            // Header Scroll Effect
+            const header = document.querySelector('header');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 35) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+
+            // Mobile Menu Toggle
+            const menuToggle = document.getElementById('menuToggle');
+            const navMenu = document.getElementById('navMenu');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            const toggleMenu = () => {
+                navMenu.classList.toggle('active');
+                menuToggle.classList.toggle('active');
+            };
+
+            if (menuToggle && navMenu) {
+                menuToggle.addEventListener('click', toggleMenu);
+                navLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        if (navMenu.classList.contains('active')) {
+                            toggleMenu();
+                        }
+                    });
+                });
+            }
+
+            // Intersection Observer for scroll animations
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            const animatedElements = document.querySelectorAll('.animate-fade-up');
+            animatedElements.forEach(el => observer.observe(el));
+
+            // Counter Animation
+            const statNumbers = document.querySelectorAll('.stat-num, .about-badge-num');
+            const animateCounter = (el) => {
+                const targetText = el.innerText.trim();
+                const targetNum = parseInt(targetText.replace(/\D/g, ''));
+                if (isNaN(targetNum)) return;
+                
+                const suffix = targetText.replace(/[0-9\s]/g, '');
+                let currentNum = 0;
+                
+                // Calculamos el tiempo para que dure aprox 2 segundos, mínimo 20ms por paso
+                const duration = 2000;
+                let stepTime = Math.abs(Math.floor(duration / targetNum));
+                let increment = 1;
+                
+                if (stepTime < 20) {
+                    stepTime = 20;
+                    increment = Math.ceil(targetNum / (duration / stepTime));
+                }
+                
+                const timer = setInterval(() => {
+                    currentNum += increment;
+                    if (currentNum >= targetNum) {
+                        el.innerText = targetText;
+                        clearInterval(timer);
+                    } else {
+                        el.innerText = currentNum + suffix;
+                    }
+                }, stepTime);
+            };
+
+            const counterObserver = new IntersectionObserver((entries, obs) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        animateCounter(entry.target);
+                        obs.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            statNumbers.forEach(el => counterObserver.observe(el));
+
+
+            // Chat Widget Logic
+            const chatToggle = document.getElementById('chatToggle');
+            const chatBox = document.getElementById('chatBox');
+            const chatClose = document.getElementById('chatClose');
+            const chatInput = document.getElementById('chatInput');
+            const chatSend = document.getElementById('chatSend');
+            const chatMessages = document.getElementById('chatMessages');
+            
+            const btnAvatar = document.getElementById('chatBotAvatarBtn');
+            const headerAvatar = document.getElementById('chatBotAvatarHeader');
+            const botStatus = document.getElementById('chatBotStatus');
+            const chatBubble = document.getElementById('chatBotBubble');
+
+            const imgSaludo = 'assets/img/iaSaludo.png';
+            const imgNormal = 'assets/img/ia.png';
+            const imgDurmiendo = 'assets/img/iaDurmiendo.png';
+
+            let isChatOpen = false;
+            let hasGreeted = false;
+            let idleTimer = null;
+            let waveTimeouts = [];
+
+            const stopWaving = () => {
+                waveTimeouts.forEach(clearTimeout);
+                waveTimeouts = [];
+                chatBubble.style.opacity = '0';
+            };
+
+            const startWaving = () => {
+                stopWaving();
+                if (isChatOpen) return;
+                
+                chatBubble.style.opacity = '1';
+                btnAvatar.src = imgSaludo; // Mano arriba
+                
+                waveTimeouts.push(setTimeout(() => {
+                    if (!isChatOpen && !btnAvatar.src.includes('Durmiendo')) btnAvatar.src = imgNormal;
+                }, 400)); // Mano abajo
+                
+                waveTimeouts.push(setTimeout(() => {
+                    if (!isChatOpen && !btnAvatar.src.includes('Durmiendo')) btnAvatar.src = imgSaludo;
+                }, 800)); // Mano arriba
+                
+                waveTimeouts.push(setTimeout(() => {
+                    if (!isChatOpen && !btnAvatar.src.includes('Durmiendo')) btnAvatar.src = imgNormal;
+                    chatBubble.style.opacity = '0';
+                }, 1200)); // Finaliza el saludo en un poco más de 1 segundo
+            };
+
+            const wakeUpBot = () => {
+                if (btnAvatar.src.includes('Durmiendo')) {
+                    btnAvatar.classList.remove('bot-sleep');
+                    headerAvatar.src = imgNormal;
+                    botStatus.textContent = 'En línea';
+                    if (!isChatOpen) {
+                        startWaving();
+                    }
+                }
+                resetIdleTimer();
+            };
+
+            const sleepBot = () => {
+                stopWaving();
+                btnAvatar.src = imgDurmiendo;
+                btnAvatar.classList.add('bot-sleep');
+                headerAvatar.src = imgDurmiendo;
+                botStatus.textContent = 'Ausente (Zzz...)';
+            };
+
+            const resetIdleTimer = () => {
+                clearTimeout(idleTimer);
+                idleTimer = setTimeout(sleepBot, 60000); // 1 minute
+            };
+
+            // Saludo inicial al cargar la página
+            startWaving();
+            resetIdleTimer();
+
+            // Wake up on any interaction
+            document.addEventListener('mousemove', () => {
+                if (btnAvatar.src.includes('Durmiendo')) wakeUpBot();
+                resetIdleTimer();
+            });
+            document.addEventListener('keydown', () => {
+                if (btnAvatar.src.includes('Durmiendo')) wakeUpBot();
+                resetIdleTimer();
+            });
+
+            const toggleChat = () => {
+                isChatOpen = !isChatOpen;
+                if (isChatOpen) {
+                    wakeUpBot();
+                    stopWaving();
+                    btnAvatar.src = imgNormal; // Se queda normal
+                    chatBox.classList.add('open');
+                    chatToggle.style.transform = 'scale(0)';
+                    
+                    if (!hasGreeted) {
+                        setTimeout(() => {
+                            addMessage("¡Hola! 👋 Soy la inteligencia artificial de La Farmed. ¿En qué te puedo ayudar hoy?", "bot");
+                            hasGreeted = true;
+                        }, 500);
+                    }
+                } else {
+                    chatBox.classList.remove('open');
+                    chatToggle.style.transform = 'scale(1)';
+                    startWaving(); // Saluda al cerrar el chat
+                    resetIdleTimer();
+                }
+            };
+
+            chatToggle.addEventListener('click', toggleChat);
+            chatClose.addEventListener('click', toggleChat);
+
+            const addMessage = (text, sender) => {
+                const msgDiv = document.createElement('div');
+                msgDiv.className = `chat-message ${sender}`;
+                msgDiv.textContent = text;
+                chatMessages.appendChild(msgDiv);
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            };
+
+            const getBotResponse = (msg) => {
+                const lowerMsg = msg.toLowerCase();
+                if (lowerMsg.includes('producto') || lowerMsg.includes('linea') || lowerMsg.includes('catálogo')) {
+                    return "Contamos con más de 89 productos divididos en líneas como Antibiótica, Dermatológica, Digestiva, Dolor, Respiratoria y Natural.";
+                } else if (lowerMsg.includes('contacto') || lowerMsg.includes('telefono') || lowerMsg.includes('llamar') || lowerMsg.includes('cotizar')) {
+                    return "Puedes contactarnos al (01) 7192378 o al 984 375 070. También nos encuentras en Av. Encalada 1171, Surco — Lima.";
+                } else if (lowerMsg.includes('cobertura') || lowerMsg.includes('donde') || lowerMsg.includes('lima') || lowerMsg.includes('provincia')) {
+                    return "Tenemos cobertura a nivel nacional. Distribuimos a miles de boticas y farmacias en Lima y provincias garantizando calidad y confianza.";
+                } else if (lowerMsg.includes('hola') || lowerMsg.includes('buenos') || lowerMsg.includes('buenas')) {
+                    return "¡Hola! ¿Cómo te podemos ayudar en La Farmed el día de hoy?";
+                } else {
+                    return "Gracias por escribirnos. Para información más detallada, por favor dale clic al botón 'Cotizar' en el menú principal o llámanos a nuestros números de contacto.";
+                }
+            };
+
+            const handleSend = () => {
+                const text = chatInput.value.trim();
+                if (text) {
+                    addMessage(text, 'user');
+                    chatInput.value = '';
+                    
+                    setTimeout(() => {
+                        const response = getBotResponse(text);
+                        addMessage(response, 'bot');
+                    }, 1000);
+                }
+                resetIdleTimer();
+            };
+
+            chatSend.addEventListener('click', handleSend);
+            chatInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') handleSend();
+            });
+            
+            // Hero Background Slider (for index.html)
+            const slides = document.querySelectorAll('.hero-slide');
+            if (slides.length > 0) {
+                let currentSlide = 0;
+                setInterval(() => {
+                    slides[currentSlide].classList.remove('active');
+                    currentSlide = (currentSlide + 1) % slides.length;
+                    slides[currentSlide].classList.add('active');
+                }, 3000);
+            }
+        });
+    </script>
+</body>
+</html>
